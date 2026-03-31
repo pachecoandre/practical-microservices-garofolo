@@ -1,0 +1,21 @@
+{
+  "name": "cqrs-videos-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev-server": "nodemon src/bin/start-server.js --color"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "express": "^5.2.1",
+    "knex": "^3.2.7",
+    "pg": "^8.20.0",
+    "pug": "^3.0.4",
+    "uuid": "^13.0.0"
+  }
+}
