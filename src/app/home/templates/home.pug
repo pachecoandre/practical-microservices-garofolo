@@ -1,4 +1,9 @@
-.container
-  h1 Welcome
-  p.views Viewers have watched 1 video(s)
-  button.btn Record viewing video
+extends ../../common-templates/layout
+
+block content
+  h1 This is the home page
+
+  p Viewers have watched #{videosWatched || 0} video(s).
+
+  form(action="/record-viewing/12345" method="POST")
+    button(type="submit") Record viewing video
